@@ -1,0 +1,482 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(105, 118, 136);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  clear: both;
+}
+
+header span{
+  color: white;
+  font-size: 20px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+header img {
+  margin-left: 490px;
+  width: 4%;
+  padding-bottom: 0px;
+  float: left;
+}
+
+header button{
+  margin-left: 635px;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  color:rgb(102,118,138);
+  font-weight: bold;
+}
+
+#hamburger {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+header h1 {
+  clear: both;
+  font-size: 40px;
+}
+
+header p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.top {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.top h3, .last h3 {
+  font-size: 25px;
+}
+
+.top p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.middle {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(220, 223, 226);
+}
+
+.middle img {
+  width: 300px;
+  height: 200px;
+  margin-left: 230px;
+}
+
+.middle h4, .middle p, .middle h5 {
+  text-align: center;
+}
+
+.middle h4 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.middle h5 {
+  border: 1px solid black;
+  height: 30px;
+  width: 150px;
+  margin-top: 15px;
+  margin-left: 300px;
+  padding-top: 7px;
+}
+
+.middle section {
+  width: 49%;
+  height: 430px;
+  margin-left: 10px;
+  float: left;
+}
+
+.last {
+  width: 100%;
+  height: 250px;
+  text-align: center;
+}
+
+.last h3 {
+  margin-top: 70px;
+}
+
+.last p {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.last h5 {
+  border: 1px solid black;
+  height: 30px;
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 690px;
+  padding-top: 7px;
+}
+
+footer {
+  background-color: rgb(24, 31, 50);
+  width: 100%;
+  height: 200px;
+}
+
+.left {
+  width: 200px;;
+  height: 150px;
+  float: left;
+}
+
+.fab, .fas {
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.left h5 {
+  color: grey;
+  font-size: 18px;
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: -2px;
+  margin-left: 10px;
+}
+
+.left li {
+  font-size: 15px;
+  color: white;
+  list-style-type: none;
+  float: left;
+  margin-top: -10px;
+  margin-left: -30px;
+  margin-right: 40px;
+}
+
+.right {
+  color: white;
+  width: 200px;;
+  height: 150px;
+  float: right;
+}
+
+.right h5, .right h6 {
+  font-size: 15px;
+  margin-top: 12px;
+  margin-bottom: -9px;
+}
+
+
+.bottom {
+  border-top: 1px solid white;
+  width: 100%;
+  height: 50px;
+  clear: both;
+}
+
+.bottom h6 {
+  font-size: 15px;
+  color: white;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.bottom img {
+  width: 60px;
+  height: 40px;
+  margin-top: -60px;
+  margin-right: 23px;
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .last, header p, .middle p, .middle img, .bottom, header img, header span, header button, footer {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(105, 118, 136);
+    color: white;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  #hamburger {
+    display: block;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .top {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  }
+
+  .top h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .top p {
+    font-size: 17px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .middle {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(220, 223, 226);
+  }
+
+  .middle h4, .middle p, .middle h5 {
+    text-align: center;
+  }
+
+  .middle h4 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+  }
+
+  .middle h5 {
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 70px;
+    padding-top: 7px;
+  }
+
+  .middle section {
+    width: 200px;
+    height: 50px;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 601px) {
+  header p, .middle p, .middle img, .bottom, header img, header span, header button, footer {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(105, 118, 136);
+    color: white;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  #hamburger {
+    display: block;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .top {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  }
+
+  .top h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .top p {
+    font-size: 22px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .middle {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(220, 223, 226);
+  }
+
+  .middle h4, .middle p, .middle h5 {
+    text-align: center;
+  }
+
+  .middle h4 {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 140px;
+    margin-right: -140px;
+  }
+
+  .middle h5 {
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 180px;
+    padding-top: 7px;
+  }
+
+  .middle section {
+    width: 200px;
+    height: 50px;
+    float: left;
+  }
+
+  .last {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+  }
+
+  .last h3 {
+    margin-top: 40px;
+  }
+
+  .last p {
+    font-size: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .last h5 {
+    border: 1px solid black;
+    height: 30px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 300px;
+    padding-top: 7px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 800px) {
+  header p, .middle p, .middle img, .bottom, header img, header span, header button, .bottom {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(105, 118, 136);
+    color: white;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  #hamburger {
+    display: block;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .top {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  }
+
+  .top h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .top p {
+    font-size: 22px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .middle {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(220, 223, 226);
+  }
+
+  .middle h4, .middle p, .middle h5 {
+    text-align: center;
+  }
+
+  .middle h4 {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 190px;
+    margin-right: -190px;
+  }
+
+  .middle h5 {
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 230px;
+    padding-top: 7px;
+  }
+
+  .middle section {
+    width: 200px;
+    height: 50px;
+    float: left;
+  }
+
+  .last {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+  }
+
+  .last h3 {
+    margin-top: 40px;
+  }
+
+  .last p {
+    font-size: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .last h5 {
+    border: 1px solid black;
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 350px;
+    padding-top: 7px;
+  }
+
+  footer {
+    background-color: rgb(24, 31, 50);
+    width: 100%;
+    height: 150px;
+  }
+}
